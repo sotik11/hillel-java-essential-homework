@@ -11,7 +11,7 @@ public class journalEvents {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("C:\\Users\\Sotik\\Desktop\\ДЗ-6\\journalEvents_ru.csv");
+        Path path = Paths.get("src/main/resources/home-work-6/journalEvents_ru.csv");
         List<String[]> subList2d = new ArrayList<>();
         List<String> subList = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader(String.valueOf(path)));
